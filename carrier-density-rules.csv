@@ -1,0 +1,10 @@
+﻿carrier,rule_item,basis,hypothetical_pallet_in,weight_lb,cube_ft3,derived_pcf,retrieved,source_locator
+R+L Carriers,Item 490 / Item 994,actual height path; 95-in option requires actual height >50 in (pallet is 48 in),48x40x48,635,53.333,11.906,2026-11-03,"Item 490 p33; Item 994 p128"
+Saia,Item 1001(3)(d),96-in substituted height when BOL shows no top loading,48x40x96,635,106.667,5.953,2026-11-03,"Item 1001 pp131-132; Item 1001-A pp132-133"
+Magnum LTL,Item 470(2),96-in substituted height when BOL/freight shows no-top-loading,48x40x96,635,106.667,5.953,2026-11-03,"Item 470(2)"
+FedEx (NMFC),Item 110,refers NMFC classification dimensions to NMFC,,,,,,2026-11-03,"Item 110"
+
+# Same 48x40x48 pallet at 635 lb: R+L path yields 11.906 pcf; Saia/Magnum 96-in substituted-height path yields 5.953 pcf.
+# Substituted cube is twice the physical cube: (48*40*96)/(48*40*48)=2, so density halves (5.953 = 11.906/2).
+# Edition-locked, reproducible comparison of published density rules. Not four carrier-confirmed classifications.
+# Source: https://freightclassdesk.com/carrier-density-rules-comparison/ retrieved 2026-11-10.

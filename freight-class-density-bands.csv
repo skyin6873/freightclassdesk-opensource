@@ -1,0 +1,19 @@
+﻿class,density_lb_per_ft3_low,density_lb_per_ft3_high,freight_class
+1,<1,,400
+2,1,2,300
+3,2,4,250
+4,4,6,175
+5,6,8,125
+6,8,10,100
+7,10,12,85
+8,12,15,85
+9,15,22.5,65
+10,22.5,30,65
+11,30,35,60
+12,35,50,55
+13,50,,50
+
+# Source: NMFC Docket 2025-1 standard thirteen density bands.
+# Retrieved from https://freightclassdesk.com/freight-class-chart/ on 2026-11-10.
+# Lower endpoint included, upper endpoint excluded (e.g. exactly 12 -> class 85, exactly 15 -> class 70).
+# Band 13 is "50 lb/ft3 or greater".
